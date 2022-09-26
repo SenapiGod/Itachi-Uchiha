@@ -40,7 +40,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
     AI_API_KEY = getenv('AI_API_KEY', "")
     WALL_API = getenv('WALL_API', "6950f559377140a4e1594c564cdca6a3")
     SUPPORT_CHAT = getenv('SUPPORT_CHAT', "https://t.me/Ft999_Support")
-    SPAMWATCH_SUPPORT_CHAT = getenv('SPAMWATCH_SUPPORT_CHAT', "")
+    SPAMWATCH_SUPPORT_CHAT = getenv('SPAMWATCH_SUPPORT_CHAT', "https://t.me/Ft999_Support")
     SPAMWATCH_API = getenv('SPAMWATCH_API', "rpZTGYSyXF5nuPUo8~ZxQVhD0fVsq~TtyuxOj3OyUeiqX69YSg5ozCCIDN5odPpF ")
     REPOSITORY = getenv("REPOSITORY", "https://github.com/SenapiGod/Itachi-Uchiha")
     IBM_WATSON_CRED_URL = getenv("IBM_WATSON_CRED_URL", "")
