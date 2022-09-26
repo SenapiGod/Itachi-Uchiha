@@ -19,7 +19,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
     EVENT_LOGS = getenv('EVENT_LOGS', "-100")
     WEBHOOK = int(getenv('WEBHOOK', "False"))
     ARQ_API_URL = getenv("ARQ_API_URL", "https://thearq.tech/")
-    ARQ_API_KEY = getenv("ARQ_API_KEY", "")
+    ARQ_API_KEY = getenv("ARQ_API_KEY", "NHYSAP-ECJHZG-PTFOPN-IEDWSW-ARQ")
     URL = getenv('URL', "")  # Does not contain token
     PORT = int(getenv('PORT', 5000))
     CERT_PATH = getenv("CERT_PATH")
@@ -56,7 +56,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
     BOT_ID = getenv("BOT_ID", "")
     ERROR_LOGS = getenv("ERROR_LOGS", "-1001766047758") # Error Logs (Channel Ya Group Choice Is Yours) (-100)
     STRICT_GMUTE = int(getenv('STRICT_GMUTE', "True"))
-    MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+    MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://mongo:UaqqZHSaCd7kXrNmfwiA@containers-us-west-23.railway.app:5574")
     DEBUG = int(getenv('IS_DEBUG', "False"))
     REDIS_URL = getenv("REDIS_URL", "") # REDIS URL (From:- Heraku & Redis)
-    OWNER_NAME = getenv("OWNER_NAME", "")
+    OWNER_NAME = getenv("OWNER_NAME", "Aftrr")
