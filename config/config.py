@@ -53,10 +53,10 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
     BOT_USERNAME = getenv("BOT_USERNAME", "Itachiuchihaxobot") # Bot Username
     OPENWEATHERMAP_ID = getenv("OPENWEATHERMAP_ID", "") # From:- https://openweathermap.org/api
     LOG_GROUP_ID = getenv('LOG_GROUP_ID', "-1001766047758")
-    BOT_ID = getenv("BOT_ID", "")
+    BOT_ID = getenv("BOT_ID", "1792926815")
     ERROR_LOGS = getenv("ERROR_LOGS", "-1001766047758") # Error Logs (Channel Ya Group Choice Is Yours) (-100)
     STRICT_GMUTE = int(getenv('STRICT_GMUTE', "True"))
     MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://mongo:UaqqZHSaCd7kXrNmfwiA@containers-us-west-23.railway.app:5574")
     DEBUG = int(getenv('IS_DEBUG', "False"))
-    REDIS_URL = getenv("REDIS_URL", "") # REDIS URL (From:- Heraku & Redis)
+    REDIS_URL = getenv("REDIS_URL", "redis://afttr:Afttr~97@redis-18785.c60.us-west-1-2.ec2.cloud.redislabs.com:18785") # REDIS URL (From:- Heraku & Redis)
     OWNER_NAME = getenv("OWNER_NAME", "Aftrr")
